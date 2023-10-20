@@ -1,11 +1,25 @@
-# starter-express-api
+# Movies API Server [![Build Status](https://travis-ci.org/avg206/movie-api-server.svg?branch=master)](https://travis-ci.org/avg206/movie-api-server)
 
-This is the simplest possible nodejs api using express that responds to any request with: 
+Simple API Server and scraper for themoviedb
+
+Find more info in `api.yml`
+
+## Get started ##
+
+### Install all dependencies
+
+```bash
+npm install
 ```
-Yo!
+
+### Run unit tests
+
+```bash
+npm run test
 ```
 
-### Deploy it in 7 seconds: 
+### Lint your code
 
-[![Deploy to Cyclic](https://deploy.cyclic.app/button.svg)](https://deploy.cyclic.app/)
-
+```bash
+npm run lint
+```
