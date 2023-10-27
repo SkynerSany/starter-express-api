@@ -5,7 +5,7 @@ const swaggerSpec = fs.readFileSync(`${__dirname}/../../swagger.yaml`)
 
 const api = KoaRouter()
 
-api.get('/swagger.yaml',
+api.get('/movies-api/swagger.yaml',
   (ctx, _next) => {
     ctx.status = 200
     ctx.body = swaggerSpec.toString()
